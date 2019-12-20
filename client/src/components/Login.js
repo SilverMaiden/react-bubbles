@@ -26,7 +26,7 @@ const Login = (props) => {
 
 
   return (
-    <div>
+    <div className="login">
       <h1>Welcome to the Bubble App!</h1>
       <h6> Please login to continue</h6>
       <form onSubmit={login} >
